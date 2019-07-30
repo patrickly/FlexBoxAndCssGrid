@@ -65,6 +65,7 @@ h1 {
 
 .box-4 {
     background: blue;
+    grid-column: 1  / 2; // box-4 starts at line 1 and ends at line 2
 }
 
 .box-5 {
