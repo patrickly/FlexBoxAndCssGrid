@@ -49,6 +49,7 @@ h1 {
    grid-template-columns: 1fr 1fr 1fr 1fr;
   //  grid-template-rows: 40px 450px 50px;
    grid-auto-rows: minmax(200px, auto);
+   justify-items: center;
 }
 
 .box-1 {
