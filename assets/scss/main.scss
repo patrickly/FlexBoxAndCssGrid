@@ -52,13 +52,17 @@ h1 {
    justify-items: stretch;
    align-items: stretch;
   //  align-items: end;
-  justify-content: center;
+  // justify-content: space-around;
+  // justify-content: space-between;
+  justify-content: space-evenly;
+
+
 }
 
 .box-1 {
     background: red;
-    grid-column: 3 / 4;
-    grid-row: 2 / 4;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
     padding: 20px;
 }
 
