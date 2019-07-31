@@ -46,16 +46,11 @@ h1 {
 
 .wrapper {
    display: grid; 
-   grid-template-columns: 200px 200px 200px 200px;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
   //  grid-template-rows: 40px 450px 50px;
    grid-auto-rows: minmax(200px, auto);
-   justify-items: stretch;
-   align-items: stretch;
-  //  align-items: end;
-  // justify-content: space-around;
-  // justify-content: space-between;
-  justify-content: space-evenly;
-
+   grid-column-gap: 20px;
+   grid-row-gap: 20px;
 
 }
 
