@@ -49,8 +49,9 @@ h1 {
    grid-template-columns: 1fr 1fr 1fr 1fr;
   //  grid-template-rows: 40px 450px 50px;
    grid-auto-rows: minmax(200px, auto);
-   grid-column-gap: 20px;
-   grid-row-gap: 20px;
+  //  grid-column-gap: 20px;
+  //  grid-row-gap: 50px;
+  grid-gap: 20px;
 
 }
 
