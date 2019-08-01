@@ -82,13 +82,13 @@ h1 {
 }
 
 .box-2 {
-    grid-column: 5 / 7;
+    grid-column: 10 / 13;
     background: yellow;
     padding: 20px;
 }
 
 .box-3 {
-    grid-column: 1  / 4; 
+    grid-column: 1  / 7; 
     background: purple;
     padding: 20px;
 }
@@ -101,7 +101,7 @@ h1 {
 }
 
 .box-5 {
-  grid-column: 1 / 7;
+  grid-column: 1 / 13;
     background: orange;
     padding: 20px;
 }
