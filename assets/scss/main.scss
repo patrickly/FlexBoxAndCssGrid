@@ -51,7 +51,7 @@ h1 {
 }
 .wrapper {
    display: grid; 
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; // 6 columns, 7 dashed-lines
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
    grid-template-rows: auto 500px 200px auto;
   //  grid-auto-rows: minmax(200px, auto);
   //  grid-column-gap: 20px;
@@ -62,7 +62,7 @@ h1 {
 
 .box-1 {
     background: red;
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     grid-row: 1 / 2;
     padding: 20px;
     text-align: center;
@@ -95,7 +95,7 @@ h1 {
 
 .box-4 {
     background: blue;
-    grid-column: 1  / 5; 
+    grid-column: 1  / 10; 
     grid-row: 2 / 3; 
     padding: 20px;
 }
@@ -108,7 +108,7 @@ h1 {
 
 .box-6 {
     background: grey;
-    grid-column: 4 / 7;
+    grid-column: 7 / 13;
     grid-row: 3 / 4;
     padding: 20px;
 }
