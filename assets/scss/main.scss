@@ -58,7 +58,7 @@ h1 {
    background: black;
    height: 700px;
    align-items: center; // vertical
-   align-content: space-between;
+   align-content: stretch;
 }
 .box {
   width: 100px;
@@ -69,14 +69,14 @@ h1 {
 
 .box2 {
   width: 400px;
-  // height: 100px;
+  // height: 200px;
   background: blue;
   border: 1px solid black;
 }
 
 .box3 {
   width: 250px;
-  // height: 100px;
+  // height: 300px;
   background: yellow;
   border: 1px solid black;
 }
