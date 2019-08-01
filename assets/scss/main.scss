@@ -54,10 +54,11 @@ h1 {
   //  flex-direction: row;
   //  flex-wrap: wrap-reverse;
    flex-flow: row wrap; // shorthand for flex-direction and flex-wrap combined 
-   justify-content: center; // horizontal
+   justify-content: space-between; // horizontal
    background: black;
    height: 700px;
-   align-items: baseline; // vertical
+   align-items: center; // vertical
+   align-content: space-between;
 }
 .box {
   width: 100px;
