@@ -54,53 +54,53 @@ h1 {
   //  flex-direction: row;
   //  flex-wrap: wrap-reverse;
    flex-flow: column wrap; // shorthand for flex-direction and flex-wrap combined 
-   justify-content: space-between; // horizontal
+   justify-content: flex-start; // horizontal
    background: black;
    height: 700px;
-   align-items: center; // vertical
+   align-items: flex-start; // vertical
    align-content: stretch;
 }
 .box {
-  width: 100px;
+  flex-grow: 2;
+  // width: 100px;
   // height: 100px;
   background: red;
   border: 1px solid black;
-  order: 1;
 }
 
 .box2 {
-  width: 400px;
+  flex-grow: 2;
+  // width: 400px;
   // height: 200px;
   background: blue;
   border: 1px solid black;
-  order: 2;
 }
 
 .box3 {
-  width: 250px;
+  flex-grow: 2;
+  // width: 250px;
   // height: 300px;
   background: yellow;
   border: 1px solid black;
-  order: 5;
 }
 .box4 {
-  width: 100px;
+  flex-grow: 2;
+  // width: 100px;
   // height: 100px;
   background: red;
   border: 1px solid black;
-  order: 6;
 }
 .box5 {
-  width: 100px;
+  flex-grow: 2;
+  // width: 100px;
   // height: 100px;
   background: red;
   border: 1px solid black;
-  order: 3;
 }
 .box6 {
-  width: 100px;
+  flex-grow: 2;
+  // width: 100px;
   // height: 100px;
   background: red;
   border: 1px solid black;  
-  order: 4;
 }
