@@ -51,8 +51,9 @@ h1 {
 }
 .wrapper {
    display: flex;
-   flex-direction: row;
-   flex-wrap: wrap-reverse;
+  //  flex-direction: row;
+  //  flex-wrap: wrap-reverse;
+   flex-flow: row wrap; // shorthand for flex-direction and flex-wrap combined 
 }
 .box {
   width: 100px;
