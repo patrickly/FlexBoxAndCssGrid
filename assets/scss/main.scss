@@ -53,7 +53,7 @@ h1 {
    display: flex;
   //  flex-direction: row;
   //  flex-wrap: wrap-reverse;
-   flex-flow: column wrap; // shorthand for flex-direction and flex-wrap combined 
+   flex-flow: row wrap; // shorthand for flex-direction and flex-wrap combined 
    justify-content: flex-start; // horizontal
    background: black;
    height: 700px;
@@ -69,7 +69,10 @@ h1 {
 }
 
 .box2 {
-  flex-grow: 20;
+  // flex: 20; // flex-grow
+  flex: 20 15 150px; // flex-grow, flex-shrink, flex-basis
+  // flex-grow: 20;
+  // flex-basis: 150px;
   // width: 400px;
   // height: 200px;
   background: blue;
@@ -77,21 +80,24 @@ h1 {
 }
 
 .box3 {
-  flex-grow: 20;
+  flex: 20 10 100px;
   // width: 250px;
   // height: 300px;
   background: yellow;
   border: 1px solid black;
 }
 .box4 {
-  flex-grow: 20;
+  flex: 20 10 200px;
   // width: 100px;
   // height: 100px;
   background: red;
   border: 1px solid black;
 }
 .box5 {
-  flex-grow: 20;
+  // flex-grow: 20;
+  // flex-shrink: 10;
+  // flex-basis: 200px;
+  flex: 20 10 200px;
   // width: 100px;
   // height: 100px;
   background: red;
